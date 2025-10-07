@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="randevu.css">
+    <title>Randevu Al</title>
+</head>
+<body>
+<header>
+    <div class="header-content">
+        <h1>Fizik Tedavi Merkezi</h1>
+    </div>
+    <div class="ustmenu">
+        <nav>
+            <a href="./index.html" class="btn">Ana Sayfa</a>
+            <a href="randevu.html" class="btn">Randevu</a>
+            <a href="hakkimizda.html" class="btn">Hakkımızda</a>
+            <a href="../iletisim/iletisim.html" class="btn">İletişim</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="randevu">
+        <h2>Randevu Alın</h2>
+        <form>
+            <label for="name">Ad Soyad:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Telefon:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date">Tarih:</label>
+            <input type="date" id="date" name="date" required>
+
+            <button type="submit" class="btn">Gönder</button>
+        </form>
+    </section>
+</main>
+</body>
+</html>

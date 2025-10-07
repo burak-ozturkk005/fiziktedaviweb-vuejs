@@ -1,0 +1,76 @@
+:root {
+    --bg: #e8f6ff;
+    --btn-bg: #0ea5e9;
+    --btn-bg-hover: #0284c7;
+    --btn-text: #fff;
+    --btn-shadow: 0 6px 16px rgba(2, 132, 199, .25);
+    --radius: 14px;
+}
+
+.header-content h1{
+    text-align: center;
+}
+.ustmenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.btn,
+.ustmenu nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.ustmenu nav a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 20px;
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    font-weight: 600;
+    margin: 0;
+}
+
+
+.randevu {
+    padding: 30px;
+    background-color: #0ea5e9;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+.randevu h2 {text-align: center;
+margin-bottom: 20px;
+}
+.randevu form {
+    display: flex;
+    flex-direction: column;
+}
+.randevu label {
+    margin: 8px 0 4px;
+    font-weight: bold;
+}
+.randevu input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.randevu .btn {
+    background-color: #2b7a78;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.randevu .btn:hover {
+    background-color: #205f5c;
+}
